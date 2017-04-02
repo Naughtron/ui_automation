@@ -20,7 +20,7 @@ from pyvirtualdisplay import Display
 
 # selenium test for /create_account
 # verify: posts, and page name
-"""class verify_home_title(unittest.TestCase):
+class verify_home_title(unittest.TestCase):
     def setUp(self):
         # self.display = Display(visible=0, size=(800, 600))
         # self.display.start()
@@ -41,7 +41,7 @@ from pyvirtualdisplay import Display
     def tearDown(self):
         self.driver.close()
 
-    # self.display.stop()"""
+    # self.display.stop()
 
 
 class create_new_account(unittest.TestCase):
