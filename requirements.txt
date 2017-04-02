@@ -1,0 +1,6 @@
+selenium==3.3.1
+nameparser==0.5.2
+Faker==0.7.10
+xvfbwrapper==0.2.9
+PyVirtualDisplay==0.2.1
+
