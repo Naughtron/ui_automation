@@ -40,8 +40,8 @@ class user_signin(unittest.TestCase):
     def setUp(self):
         
         # create user data:
-        self.username = "chris.naughton@gmail.com"
-        self.password = "thr4llw4rch13f!"
+        self.username = "my.email@gmail.com"
+        self.password = "XXXXXXXXXXX"
         self.server = "https://www.safaribooksonline.com/"
         self.driver = webdriver.Chrome()
 
