@@ -2,13 +2,6 @@
 # imports
 import unittest
 import unicodedata
-import sys
-import uuid
-import random
-import string
-import time
-from faker import Faker
-from nameparser import HumanName
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -47,8 +40,8 @@ class user_signin(unittest.TestCase):
     def setUp(self):
         
         # create user data:
-        self.username = "my.email@gmail.com"
-        self.password = "XXXXXXXXXXXXX"
+        self.username = "chris.naughton@gmail.com"
+        self.password = "thr4llw4rch13f!"
         self.server = "https://www.safaribooksonline.com/"
         self.driver = webdriver.Chrome()
 
